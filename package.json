@@ -1,0 +1,29 @@
+{
+  "name": "yarn-pnp-vite-ts-react-template",
+  "packageManager": "yarn@3.1.1",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "configure": "yarn dlx @yarnpkg/sdks vscode"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@vitejs/plugin-react": "^1.2.0",
+    "sass": "^1.49.8",
+    "typescript": "^4.5.5",
+    "vite": "^2.8.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "_moduleAliases": {
+    "@componentes": "dist/componentes",
+    "@servicios": "dist/servicios"
+  }
+}
